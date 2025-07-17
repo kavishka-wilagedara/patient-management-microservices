@@ -34,3 +34,5 @@ build/
 
 # Ignore Spring Boot application config
 **/application.properties
+
+#Ignore api requests
