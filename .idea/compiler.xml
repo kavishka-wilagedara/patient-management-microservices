@@ -9,6 +9,7 @@
         <module name="insight-service" />
         <module name="api-gateway" />
         <module name="patient-service" />
+        <module name="auth-service" />
         <module name="billing-service" />
       </profile>
     </annotationProcessing>
@@ -16,6 +17,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="api-gateway" options="-parameters" />
+      <module name="auth-service" options="-parameters" />
       <module name="billing-service" options="-parameters" />
       <module name="insight-service" options="-parameters" />
       <module name="patient-service" options="-parameters" />

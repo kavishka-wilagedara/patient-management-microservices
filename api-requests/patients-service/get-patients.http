@@ -1,3 +1,7 @@
 ### GET request to get all patients
+# without api-gateway
 GET http://localhost:4000/patients
 ###
+
+# with api-gateway
+GET http://localhost:4004/api/patients
