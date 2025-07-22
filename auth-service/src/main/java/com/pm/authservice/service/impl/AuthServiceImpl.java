@@ -5,6 +5,7 @@ import com.pm.authservice.exception.UserNotFoundException;
 import com.pm.authservice.repository.UserRepository;
 import com.pm.authservice.service.AuthService;
 import com.pm.authservice.util.JwtUtil;
+import io.jsonwebtoken.JwtException;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
@@ -35,5 +36,15 @@ public class AuthServiceImpl implements AuthService {
             return token;
         }
         throw new UserNotFoundException("Invalid email or password");
+    }
+
+    @Override
+    public boolean validateToken(String token) {
+        try{
+            jwtUtil.validateToken(token);
+            return true;
+        }   catch(JwtException e) {
+            return false;
+        }
     }
 }
