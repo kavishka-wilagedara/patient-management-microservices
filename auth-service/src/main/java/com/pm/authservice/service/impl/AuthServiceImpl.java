@@ -6,7 +6,6 @@ import com.pm.authservice.repository.UserRepository;
 import com.pm.authservice.service.AuthService;
 import com.pm.authservice.util.JwtUtil;
 import io.jsonwebtoken.JwtException;
-import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
