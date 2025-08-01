@@ -5,9 +5,21 @@ spring:
   cloud:
     gateway:
       routes:
+
+        ## http://localhost:4004/auth/login
+        ## API GATEWAY -> http://auth-service:4005/login
+
+        - id: auth-service-route
+          uri: http://auth-service:4005
+          predicates:
+            - Path=/auth/**
+          filters:
+            - StripPrefix=1
+
         ## REST CLIENT -> http://localhost:4004/api/patients
         ## API GATEWAY -> http://patient-service:4000
         ## PATIENTS SERVICE -> /patients -> Patients Array
+
         - id: patient-service-route
           uri: http://patient-service:4000
           predicates:
@@ -16,6 +28,7 @@ spring:
             - StripPrefix=1
 
         ## Routes for /api/docs/patients to patient-service /v3/api/-docs
+
         - id: api-docs-patient-route
           uri: http://patient-service:4000
           predicates:
