@@ -6,14 +6,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="insight-service" />
-        <module name="api-gateway" />
-        <module name="patient-service" />
-        <module name="auth-service" />
-        <module name="integration-test" />
-        <module name="billing-service" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="api-gateway" target="17" />
+      <module name="auth-service" target="17" />
+      <module name="billing-service" target="17" />
+      <module name="insight-service" target="17" />
+      <module name="integration-test" target="17" />
+      <module name="patient-service" target="17" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">

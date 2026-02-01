@@ -1,0 +1,767 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3b57ef08-0b81-4a6b-81ee-74201ec3251b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/com/pm/apigateway/ApiGatewayApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/com/pm/apigateway/exception/JwtValidationException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/com/pm/apigateway/filter/JwtValidationGatewayFilterFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-requests/auth-service/login.http" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-requests/auth-service/validate.http" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-requests/patients-service/create-patient.http" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-requests/patients-service/delete-patient.http" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-requests/patients-service/get-patients.http" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-requests/patients-service/update-patient.http" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/src/main/java/com/pm/authservice/AuthServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/src/main/java/com/pm/authservice/config/SecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/src/main/java/com/pm/authservice/controller/AuthController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/src/main/java/com/pm/authservice/dto/request/LoginRequestDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/src/main/java/com/pm/authservice/dto/response/LoginResponseDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/src/main/java/com/pm/authservice/exception/GlobalExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/src/main/java/com/pm/authservice/exception/UserNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/src/main/java/com/pm/authservice/model/Token.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/src/main/java/com/pm/authservice/model/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/src/main/java/com/pm/authservice/repository/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/src/main/java/com/pm/authservice/service/AuthService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/src/main/java/com/pm/authservice/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/src/main/java/com/pm/authservice/service/impl/AuthServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/src/main/java/com/pm/authservice/service/impl/UserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/src/main/java/com/pm/authservice/util/JwtUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/src/main/resources/data.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/billing-service/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/billing-service/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/billing-service/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/billing-service/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/billing-service/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/billing-service/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/billing-service/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/billing-service/src/main/java/com/pm/billingservice/BillingServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/billing-service/src/main/java/com/pm/billingservice/grpc/BillingGrpcService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/billing-service/src/main/proto/billing_service.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/billing-service/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/billing-service/src/test/java/com/pm/billingservice/BillingServiceApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/grpc-requests/billing-service/create-billing-account.http" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/insight-service/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/insight-service/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/insight-service/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/insight-service/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/insight-service/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/insight-service/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/insight-service/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/insight-service/src/main/java/com/pm/insightservice/InsightServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/insight-service/src/main/java/com/pm/insightservice/kafka/KafkaConsumer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/insight-service/src/main/proto/patient_event.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/insight-service/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/insight-service/src/test/java/com/pm/insightservice/InsightServiceApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/integration-test/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/integration-test/src/main/java/com/pm/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/integration-test/src/test/java/AuthIntegrationTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/integration-test/src/test/java/PatientIntegrationTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/integration-test/target/classes/com/pm/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/integration-test/target/test-classes/AuthIntegrationTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/integration-test/target/test-classes/PatientIntegrationTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient-management.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient-service/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient-service/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient-service/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient-service/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient-service/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient-service/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient-service/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient-service/src/main/java/com/pm/patientservice/PatientServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient-service/src/main/java/com/pm/patientservice/controller/PatientController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient-service/src/main/java/com/pm/patientservice/dto/request/PatientRequestDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient-service/src/main/java/com/pm/patientservice/dto/response/PatientResponseDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient-service/src/main/java/com/pm/patientservice/dto/validators/CreatePatientValidationGroup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient-service/src/main/java/com/pm/patientservice/exception/EmailAlreadyException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient-service/src/main/java/com/pm/patientservice/exception/GlobalExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient-service/src/main/java/com/pm/patientservice/exception/PatientNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient-service/src/main/java/com/pm/patientservice/grpc/BillingServiceGrpcClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient-service/src/main/java/com/pm/patientservice/kafka/KafkaProducer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient-service/src/main/java/com/pm/patientservice/mapper/PatientMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient-service/src/main/java/com/pm/patientservice/model/Patient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient-service/src/main/java/com/pm/patientservice/repository/PatientRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient-service/src/main/java/com/pm/patientservice/service/PatientService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient-service/src/main/java/com/pm/patientservice/service/impl/PatientServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient-service/src/main/proto/billing_service.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient-service/src/main/proto/patient_event.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient-service/src/main/resources/data.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient-service/src/test/java/com/pm/patientservice/PatientServiceApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dockerfile" />
+        <option value="Interface" />
+        <option value="HTTP Request" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2yViZOASJAgP3NHpWZFHdVcr9TM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.PatientServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.api-gateway.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.auth-service-db.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.auth-service.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.billing-service.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.insight-service.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.kafka.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.patient-service-db.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.patient-service.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.All in login.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.create-billing-account | #1.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.create-patient | POST request to create patient.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.delete-patient | DELETE request to delete patient.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.get-patients | #2.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.get-patients | GET request to get all patients.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.login | Login request.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.update-patient | PUT request to update patient.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.validate | GET request to validate token.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.All in integration-test.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AuthIntegrationTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AuthIntegrationTest.shouldReturnOKWithValidToken.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AuthIntegrationTest.shouldReturnUnauthorizedOnInvalidLogin.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PatientIntegrationTest.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.api-gateway [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.api-gateway [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.auth-service [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.auth-service [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.auth-service [test].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.billing-service [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.billing-service [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.billing-service [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.insight-service [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.insight-service [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.patient-service [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.patient-service [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.patient-service [install].executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.BillingServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.PatientServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Desktop/My_Projects/patient-management&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.3413793&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.uml&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;3960a4bf2536dfd3673d43fa996aca5a&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\kavis\OneDrive\Desktop\My Projects\patient-management\auth-service" />
+      <recent name="C:\Users\kavis\OneDrive\Desktop\My Projects\patient-management\api-gateway" />
+      <recent name="C:\Users\kavis\OneDrive\Desktop\My Projects\patient-management\insight-service" />
+      <recent name="C:\Users\kavis\OneDrive\Desktop\My Projects\patient-management\insight-service\src\main\proto" />
+      <recent name="C:\Users\kavis\OneDrive\Desktop\My Projects\patient-management\insights-service\src\main\proto" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\kavis\OneDrive\Desktop\My Projects\patient-management\billing-service\src\main" />
+      <recent name="C:\Users\kavis\OneDrive\Desktop\My Projects\patient-management\patient-service\src\main" />
+      <recent name="C:\Users\kavis\OneDrive\Desktop\My Projects\patient-management\billing-service\src" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.All in integration-test">
+    <configuration name="get-patients | #2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/api-requests/patients-service/get-patients.http" index="2" requestIdentifier="#2" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="login | Login request" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/api-requests/auth-service/login.http" requestIdentifier="Login request" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="All in integration-test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="integration-test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AuthIntegrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="integration-test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AuthIntegrationTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PatientIntegrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="integration-test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PatientIntegrationTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="api-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.pm.apigateway.ApiGatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AuthServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="auth-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.pm.authservice.AuthServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BillingServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="billing-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.pm.billingservice.BillingServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InsightServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="insight-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.pm.insightservice.InsightServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PatientServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="patient-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.pm.patientservice.PatientServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="docker-image" temporary="true">
+      <deployment type="docker-image">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="api-gateway" type="docker-deploy" factoryName="dockerfile" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="imageTag" value="api-gateway:latest" />
+          <option name="containerName" value="api-gateway" />
+          <option name="envVars">
+            <list>
+              <DockerEnvVarImpl>
+                <option name="name" value="AUTH_SERVICE_URL" />
+                <option name="value" value="http://auth-service:4005" />
+              </DockerEnvVarImpl>
+            </list>
+          </option>
+          <option name="portBindings">
+            <list>
+              <DockerPortBindingImpl>
+                <option name="containerPort" value="4004" />
+                <option name="hostPort" value="4004" />
+              </DockerPortBindingImpl>
+            </list>
+          </option>
+          <option name="commandLineOptions" value="--network internal" />
+          <option name="sourceFilePath" value="api-gateway/Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="auth-service-db" type="docker-deploy" factoryName="docker-image" server-name="Docker">
+      <deployment type="docker-image">
+        <settings>
+          <option name="imageTag" value="postgres:latest" />
+          <option name="containerName" value="auth-service-db" />
+          <option name="envVars">
+            <list>
+              <DockerEnvVarImpl>
+                <option name="name" value="POSTGRES_DB" />
+                <option name="value" value="db" />
+              </DockerEnvVarImpl>
+              <DockerEnvVarImpl>
+                <option name="name" value="POSTGRES_PASSWORD" />
+                <option name="value" value="root" />
+              </DockerEnvVarImpl>
+              <DockerEnvVarImpl>
+                <option name="name" value="POSTGRES_USER" />
+                <option name="value" value="root" />
+              </DockerEnvVarImpl>
+            </list>
+          </option>
+          <option name="portBindings">
+            <list>
+              <DockerPortBindingImpl>
+                <option name="containerPort" value="5432" />
+                <option name="hostPort" value="5001" />
+              </DockerPortBindingImpl>
+            </list>
+          </option>
+          <option name="commandLineOptions" value="--network internal" />
+          <option name="volumeBindings">
+            <list>
+              <DockerVolumeBindingImpl>
+                <option name="containerPath" value="/var/lib/postgresql/data" />
+                <option name="hostPath" value="C:\Users\kavis\db_volumes\auth-service-db" />
+              </DockerVolumeBindingImpl>
+            </list>
+          </option>
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="auth-service" type="docker-deploy" factoryName="dockerfile" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="imageTag" value="auth-service:latest" />
+          <option name="containerName" value="auth-service" />
+          <option name="envVars">
+            <list>
+              <DockerEnvVarImpl>
+                <option name="name" value="SPRING_DATASOURCE_PASSWORD" />
+                <option name="value" value="root" />
+              </DockerEnvVarImpl>
+              <DockerEnvVarImpl>
+                <option name="name" value="SPRING_DATASOURCE_URL" />
+                <option name="value" value="jdbc:postgresql://auth-service-db:5432/db" />
+              </DockerEnvVarImpl>
+              <DockerEnvVarImpl>
+                <option name="name" value="SPRING_DATASOURCE_USERNAME" />
+                <option name="value" value="root" />
+              </DockerEnvVarImpl>
+              <DockerEnvVarImpl>
+                <option name="name" value="SPRING_JPA_HIBERNATE_DDL_AUTO" />
+                <option name="value" value="update" />
+              </DockerEnvVarImpl>
+              <DockerEnvVarImpl>
+                <option name="name" value="SPRING_SQL_INIT_MODE" />
+                <option name="value" value="always" />
+              </DockerEnvVarImpl>
+              <DockerEnvVarImpl>
+                <option name="name" value="JWT_SECRET" />
+                <option name="value" value="CS5G8RHDKW2NsMsfXZkxzOTnob/6G7XT0m2gikhPJB9db4RVKuiJGiN7rHMP1jw2" />
+              </DockerEnvVarImpl>
+            </list>
+          </option>
+          <option name="commandLineOptions" value="--network internal" />
+          <option name="sourceFilePath" value="auth-service/Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="billing-service" type="docker-deploy" factoryName="dockerfile" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="imageTag" value="billing-service:latest" />
+          <option name="containerName" value="billing-service" />
+          <option name="portBindings">
+            <list>
+              <DockerPortBindingImpl>
+                <option name="containerPort" value="4001" />
+                <option name="hostPort" value="4001" />
+              </DockerPortBindingImpl>
+              <DockerPortBindingImpl>
+                <option name="containerPort" value="9001" />
+                <option name="hostPort" value="9001" />
+              </DockerPortBindingImpl>
+            </list>
+          </option>
+          <option name="commandLineOptions" value="--network internal" />
+          <option name="sourceFilePath" value="billing-service/Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="insight-service" type="docker-deploy" factoryName="dockerfile" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="imageTag" value="insight-service:latest" />
+          <option name="containerName" value="insight-service" />
+          <option name="envVars">
+            <list>
+              <DockerEnvVarImpl>
+                <option name="name" value="SPRING_KAFKA_BOOTSTRAP_SERVERS" />
+                <option name="value" value="kafka:9092" />
+              </DockerEnvVarImpl>
+            </list>
+          </option>
+          <option name="portBindings">
+            <list>
+              <DockerPortBindingImpl>
+                <option name="containerPort" value="4002" />
+                <option name="hostPort" value="4002" />
+              </DockerPortBindingImpl>
+            </list>
+          </option>
+          <option name="commandLineOptions" value="--network internal" />
+          <option name="sourceFilePath" value="insight-service/Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="kafka" type="docker-deploy" factoryName="docker-image" server-name="Docker">
+      <deployment type="docker-image">
+        <settings>
+          <option name="imageTag" value="bitnami/kafka:latest" />
+          <option name="containerName" value="kafka" />
+          <option name="envVars">
+            <list>
+              <DockerEnvVarImpl>
+                <option name="name" value="KAFKA_CFG_ADVERTISED_LISTENERS" />
+                <option name="value" value="PLAINTEXT://kafka:9092,EXTERNAL://localhost:9094" />
+              </DockerEnvVarImpl>
+              <DockerEnvVarImpl>
+                <option name="name" value="KAFKA_CFG_CONTROLLER_LISTENER_NAMES" />
+                <option name="value" value="CONTROLLER" />
+              </DockerEnvVarImpl>
+              <DockerEnvVarImpl>
+                <option name="name" value="KAFKA_CFG_CONTROLLER_QUORUM_VOTERS" />
+                <option name="value" value="0@kafka:9093" />
+              </DockerEnvVarImpl>
+              <DockerEnvVarImpl>
+                <option name="name" value="KAFKA_CFG_LISTENER_SECURITY_PROTOCOL_MAP" />
+                <option name="value" value="CONTROLLER:PLAINTEXT,EXTERNAL:PLAINTEXT,PLAINTEXT:PLAINTEXT" />
+              </DockerEnvVarImpl>
+              <DockerEnvVarImpl>
+                <option name="name" value="KAFKA_CFG_LISTENERS" />
+                <option name="value" value="PLAINTEXT://:9092,CONTROLLER://:9093,EXTERNAL://:9094" />
+              </DockerEnvVarImpl>
+              <DockerEnvVarImpl>
+                <option name="name" value="KAFKA_CFG_NODE_ID" />
+                <option name="value" value="0" />
+              </DockerEnvVarImpl>
+              <DockerEnvVarImpl>
+                <option name="name" value="KAFKA_CFG_PROCESS_ROLES" />
+                <option name="value" value="controller,broker" />
+              </DockerEnvVarImpl>
+            </list>
+          </option>
+          <option name="portBindings">
+            <list>
+              <DockerPortBindingImpl>
+                <option name="containerPort" value="9092" />
+                <option name="hostPort" value="9092" />
+              </DockerPortBindingImpl>
+              <DockerPortBindingImpl>
+                <option name="containerPort" value="9094" />
+                <option name="hostPort" value="9094" />
+              </DockerPortBindingImpl>
+            </list>
+          </option>
+          <option name="commandLineOptions" value="--network internal" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="patient-service-db" type="docker-deploy" factoryName="docker-image" server-name="Docker">
+      <deployment type="docker-image">
+        <settings>
+          <option name="imageTag" value="postgres:latest" />
+          <option name="containerName" value="patient-service-db" />
+          <option name="envVars">
+            <list>
+              <DockerEnvVarImpl>
+                <option name="name" value="POSTGRES_USER" />
+                <option name="value" value="root" />
+              </DockerEnvVarImpl>
+              <DockerEnvVarImpl>
+                <option name="name" value="POSTGRES_PASSWORD" />
+                <option name="value" value="root" />
+              </DockerEnvVarImpl>
+              <DockerEnvVarImpl>
+                <option name="name" value="POSTGRES_DB" />
+                <option name="value" value="db" />
+              </DockerEnvVarImpl>
+            </list>
+          </option>
+          <option name="portBindings">
+            <list>
+              <DockerPortBindingImpl>
+                <option name="containerPort" value="5432" />
+                <option name="hostPort" value="5000" />
+              </DockerPortBindingImpl>
+            </list>
+          </option>
+          <option name="commandLineOptions" value="--network internal" />
+          <option name="volumeBindings">
+            <list>
+              <DockerVolumeBindingImpl>
+                <option name="containerPath" value="/var/lib/postgresql/data" />
+                <option name="hostPath" value="C:\Users\kavis\db_volumes\patient-service-db" />
+              </DockerVolumeBindingImpl>
+            </list>
+          </option>
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="patient-service" type="docker-deploy" factoryName="dockerfile" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="imageTag" value="patient-service:latest" />
+          <option name="containerName" value="patient-service" />
+          <option name="envVars">
+            <list>
+              <DockerEnvVarImpl>
+                <option name="name" value="BILLING_SERVICE_ADDRESS" />
+                <option name="value" value="billing-service" />
+              </DockerEnvVarImpl>
+              <DockerEnvVarImpl>
+                <option name="name" value="BILLING_SERVICE_GRPC_PORT" />
+                <option name="value" value="9001" />
+              </DockerEnvVarImpl>
+              <DockerEnvVarImpl>
+                <option name="name" value="SPRING_DATASOURCE_PASSWORD" />
+                <option name="value" value="root" />
+              </DockerEnvVarImpl>
+              <DockerEnvVarImpl>
+                <option name="name" value="SPRING_DATASOURCE_URL" />
+                <option name="value" value="jdbc:postgresql://patient-service-db:5432/db" />
+              </DockerEnvVarImpl>
+              <DockerEnvVarImpl>
+                <option name="name" value="SPRING_DATASOURCE_USERNAME" />
+                <option name="value" value="root" />
+              </DockerEnvVarImpl>
+              <DockerEnvVarImpl>
+                <option name="name" value="SPRING_JPA_HIBERNATE_DDL_AUTO" />
+                <option name="value" value="update" />
+              </DockerEnvVarImpl>
+              <DockerEnvVarImpl>
+                <option name="name" value="SPRING_SQL_INIT_MODE" />
+                <option name="value" value="always" />
+              </DockerEnvVarImpl>
+              <DockerEnvVarImpl>
+                <option name="name" value="SPRING_KAFKA_BOOTSTRAP_SERVERS" />
+                <option name="value" value="kafka:9092" />
+              </DockerEnvVarImpl>
+            </list>
+          </option>
+          <option name="commandLineOptions" value="--network internal" />
+          <option name="sourceFilePath" value="patient-service/Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Docker.auth-service" />
+      <item itemvalue="Docker.api-gateway" />
+      <item itemvalue="Docker.insight-service" />
+      <item itemvalue="Docker.kafka" />
+      <item itemvalue="Docker.billing-service" />
+      <item itemvalue="Docker.patient-service-db" />
+      <item itemvalue="Docker.auth-service-db" />
+      <item itemvalue="Docker.patient-service" />
+      <item itemvalue="HTTP Request.login | Login request" />
+      <item itemvalue="HTTP Request.get-patients | #2" />
+      <item itemvalue="JUnit.All in integration-test" />
+      <item itemvalue="JUnit.PatientIntegrationTest" />
+      <item itemvalue="JUnit.AuthIntegrationTest" />
+      <item itemvalue="Spring Boot.AuthServiceApplication" />
+      <item itemvalue="Spring Boot.ApiGatewayApplication" />
+      <item itemvalue="Spring Boot.InsightServiceApplication" />
+      <item itemvalue="Spring Boot.BillingServiceApplication" />
+      <item itemvalue="Spring Boot.PatientServiceApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.All in integration-test" />
+        <item itemvalue="JUnit.PatientIntegrationTest" />
+        <item itemvalue="HTTP Request.get-patients | #2" />
+        <item itemvalue="HTTP Request.login | Login request" />
+        <item itemvalue="JUnit.AuthIntegrationTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.17011.79" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.17011.79" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3b57ef08-0b81-4a6b-81ee-74201ec3251b" name="Changes" comment="" />
+      <created>1749926196346</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1749926196346</updated>
+      <workItem from="1749926197519" duration="6477000" />
+      <workItem from="1749989548255" duration="14598000" />
+      <workItem from="1750096572249" duration="7677000" />
+      <workItem from="1750138660440" duration="3745000" />
+      <workItem from="1750150570455" duration="21000" />
+      <workItem from="1750150602436" duration="9919000" />
+      <workItem from="1750267620873" duration="127000" />
+      <workItem from="1751781506835" duration="192000" />
+      <workItem from="1751781713044" duration="3432000" />
+      <workItem from="1752131532330" duration="3461000" />
+      <workItem from="1752137735932" duration="13608000" />
+      <workItem from="1752256148173" duration="1132000" />
+      <workItem from="1752377864321" duration="10270000" />
+      <workItem from="1752512142421" duration="2284000" />
+      <workItem from="1752596226268" duration="2741000" />
+      <workItem from="1752682804219" duration="685000" />
+      <workItem from="1752725524413" duration="2359000" />
+      <workItem from="1752730479052" duration="12223000" />
+      <workItem from="1752748245446" duration="5597000" />
+      <workItem from="1752768359332" duration="6415000" />
+      <workItem from="1752817689078" duration="164000" />
+      <workItem from="1752817864650" duration="12727000" />
+      <workItem from="1752835118082" duration="1388000" />
+      <workItem from="1752836635970" duration="2959000" />
+      <workItem from="1753090221221" duration="8249000" />
+      <workItem from="1753164864655" duration="2745000" />
+      <workItem from="1753172138521" duration="9677000" />
+      <workItem from="1753289475582" duration="28000" />
+      <workItem from="1753293123630" duration="248000" />
+      <workItem from="1753344641312" duration="303000" />
+      <workItem from="1753375497837" duration="33000" />
+      <workItem from="1753376427760" duration="8226000" />
+      <workItem from="1753435583486" duration="677000" />
+      <workItem from="1754067676645" duration="8134000" />
+      <workItem from="1758631682887" duration="1507000" />
+      <workItem from="1758731641636" duration="2846000" />
+      <workItem from="1758776684496" duration="233000" />
+      <workItem from="1758776939798" duration="10490000" />
+      <workItem from="1758790418576" duration="2714000" />
+      <workItem from="1758794248494" duration="2549000" />
+      <workItem from="1758818283425" duration="603000" />
+      <workItem from="1758881085948" duration="2808000" />
+      <workItem from="1759228752737" duration="4372000" />
+      <workItem from="1759310741814" duration="4216000" />
+      <workItem from="1759395786103" duration="1065000" />
+      <workItem from="1759398777639" duration="1863000" />
+      <workItem from="1759402995140" duration="274000" />
+      <workItem from="1760950454616" duration="767000" />
+      <workItem from="1760984143994" duration="43000" />
+      <workItem from="1760985861586" duration="808000" />
+      <workItem from="1761630613700" duration="4970000" />
+      <workItem from="1761676181639" duration="1992000" />
+      <workItem from="1761716904933" duration="5440000" />
+      <workItem from="1761811974600" duration="4358000" />
+      <workItem from="1761849515836" duration="46000" />
+      <workItem from="1762510936938" duration="1887000" />
+      <workItem from="1762595928188" duration="1986000" />
+      <workItem from="1762756731860" duration="608000" />
+      <workItem from="1763713220868" duration="668000" />
+      <workItem from="1763907076404" duration="92000" />
+      <workItem from="1763988551553" duration="808000" />
+      <workItem from="1763998017903" duration="12000" />
+      <workItem from="1765105189581" duration="659000" />
+      <workItem from="1765255908132" duration="109000" />
+      <workItem from="1769952624933" duration="489000" />
+      <workItem from="1769953124591" duration="30000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
